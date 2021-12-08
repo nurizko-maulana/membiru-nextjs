@@ -92,7 +92,7 @@ export default function Home({ allPostsData }) {
 
       <div class="flex justify-center my-10 text-2xl">LIST HARGA</div>
 
-      <div class="flex justify-center mb-10 transform scale-75 translate-x-5">
+      <div class="flex justify-center mb-10 transform scale-75 translate-x-5 ">
         <div class="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div class="absolute filter drop-shadow-2xl rounded-xl w-52  -left-12 -top-4">
             <Image class="rounded-xl" width={500} height={750} src="/images/sesi-keluarga.png"></Image>
@@ -291,31 +291,31 @@ export default function Home({ allPostsData }) {
                   <td>4R</td>
                   <td>4x6</td>
                   <td>5lbr</td>
-                  <td>25K</td>
+                  <td class="text-yellow-900">25K</td>
                 </tr>
-                <tr class="">
+                <tr>
                   <td>5R</td>
                   <td>5x7</td>
                   <td>2lbr</td>
-                  <td>20K</td>
+                  <td class="text-yellow-900">20K</td>
                 </tr>
                 <tr>
                   <td>6R</td>
                   <td>6x8</td>
                   <td>2lbr</td>
-                  <td>30K</td>
+                  <td class="text-yellow-900">30K</td>
                 </tr>
                 <tr>
                   <td>8R+</td>
                   <td>8x12</td>
                   <td>2lbr</td>
-                  <td>50K</td>
+                  <td class="text-yellow-900">50K</td>
                 </tr>
                 <tr>
                   <td>10R</td>
                   <td>10x12</td>
                   <td>1lbr</td>
-                  <td>35K</td>
+                  <td class="text-yellow-900">35K</td>
                 </tr>
               </tbody>
             </table>
