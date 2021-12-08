@@ -20,32 +20,32 @@ export default function Home({ allPostsData }) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="description"
-          content="MEMBIRU STUDIO : Photo studio based on Tanjung Balai Karimun"
+          content="STUDIO MEMBIRU : Photo studio based on Tanjung Balai Karimun"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Membiru Studio : Photography and PhotoBook</title>
+        <title>Studio Membiru : Photography and PhotoBook</title>
         {/* <!-- OG --> */}
         <meta
           property="og:title"
-          content="MEMBIRU STUDIO : We're a team of creative phtografers and and developers who love to make content, build, and provide memorable moment for you."
+          content="STUDIO MEMBIRU : Abadikan momen bersama kami."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://membiru.studio" />
         <meta property="og:img" content="./image/og-image.jpg" />
         <meta
           property="og:image:alt"
-          content="We're a team of creative photografers and and developers who love to make content, build, and provide memorable moment for you."
+          content="Abadikan momen bersama kami."
         />
         <meta property="og:image:width" content="2300" />
         <meta property="og:image:height" content="1650" />
         {/* <!-- OG Twitter --> */}
         <meta
           name="twitter:title"
-          content="MEMBIRU STUDIO : Photo studio based on Tanjung Balai Karimun "
+          content="STUDIO MEMBIRU : Abadikan momen bersama kami. "
         />
         <meta
           name="twitter:description"
-          content=" We're a team of creative phtografers and and developers who love to make content, build, and provide memorable moment for you."
+          content=" Abadikan momen bersama kami."
         />
         <meta
           name="twitter:image"
