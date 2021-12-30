@@ -37,8 +37,8 @@ export default function Home({ allPostsData }) {
           property="og:image:alt"
           content="Abadikan momen bersama kami."
         />
-        <meta property="og:image:width" content="2300" />
-        <meta property="og:image:height" content="1650" />
+        <meta property="og:image:width" content="637" />
+        <meta property="og:image:height" content="456" />
         {/* <!-- OG Twitter --> */}
         <meta
           name="twitter:title"
