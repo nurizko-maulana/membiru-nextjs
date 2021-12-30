@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://membiru.studio" />
-        <meta property="og:img" content="https://www.membiru.studio/images/og-image.jpg" />
+        <meta property="og:img" content="https://membiru.vercel.app/images/og-image.jpg" />
         <meta
           property="og:image:alt"
           content="Abadikan momen bersama kami."
@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
         />
         <meta
           name="twitter:image"
-          content="http://membiru.studio/images/og-image.jpg"
+          content="https://membiru.vercel.app/images/og-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         {/* <!-- Style --> */}
