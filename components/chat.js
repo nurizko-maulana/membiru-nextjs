@@ -1,7 +1,25 @@
 import Link from "next/link";
+import * as ga from "../lib/ga";
+
 export default function () {
+  const handleCLickWA = () => {
+    ga.event({
+      action: "share",
+      params: {
+        method: "whatsapp",
+      },
+    });
+  };
+
   return (
-    <a href="https://api.whatsapp.com/send?phone=6281363729347&text=hallo%20min,%20" className="fixed bottom-28 right-16 ">
+    <a
+      href="https://api.whatsapp.com/send?phone=6281363729347&text=hallo%20min,%20"
+      target="_blank"
+      className="fixed bottom-28 right-16 "
+      onClick={() => {
+        handleCLickWA();
+      }}
+    >
       <div className=" w-10 h-10 rounded-full bg-green-500 absolute inset-x-3 inset-y-2 animate-ping"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
