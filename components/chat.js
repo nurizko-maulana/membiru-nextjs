@@ -13,7 +13,7 @@ export default function () {
 
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=6281363729347&text=hallo%20min,%20"
+      href="https://api.whatsapp.com/send?phone=6281363729347&text=Halo,%20saya%20lihat%20website%20membiru.studio.%20Boleh%20dibantu%20infornya%20lebih%20lanjut?"
       target="_blank"
       className="fixed bottom-28 right-16 "
       onClick={() => {

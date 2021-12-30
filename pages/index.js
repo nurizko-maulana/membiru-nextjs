@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import Image from "next/image"
+import Image from "next/image";
 import { getSortedPostsData } from "../lib/posts";
 
 //Todo remove this ssr
@@ -25,34 +25,49 @@ export default function Home({ allPostsData }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Studio Membiru : Photography and PhotoBook</title>
-        {/* <!-- OG --> */}
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>STUDIO MEMBIRU : Abadikan momen bersama kami.</title>
+        <meta
+          name="description"
+          content="STUDIO MEMBIRU : Photo studio based on Tanjung Balai Karimun"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://www.membiru.studio/" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
           content="STUDIO MEMBIRU : Abadikan momen bersama kami."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://membiru.studio" />
-        <meta property="og:img" content="https://membiru.vercel.app/images/og-image.jpg" />
         <meta
-          property="og:image:alt"
-          content="Abadikan momen bersama kami."
+          property="og:description"
+          content="STUDIO MEMBIRU : Photo studio based on Tanjung Balai Karimun"
         />
-        <meta property="og:image:width" content="637" />
-        <meta property="og:image:height" content="456" />
-        {/* <!-- OG Twitter --> */}
+        <meta
+          property="og:image"
+          content="https://membiru.vercel.app/images/og-image.jpg"
+        />
+
+        {/* <!-- Twitter Meta Tags --/> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="membiru.studio" />
+        <meta property="twitter:url" content="https://www.membiru.studio/" />
         <meta
           name="twitter:title"
-          content="STUDIO MEMBIRU : Abadikan momen bersama kami. "
+          content="STUDIO MEMBIRU : Abadikan momen bersama kami."
         />
         <meta
           name="twitter:description"
-          content=" Abadikan momen bersama kami."
+          content="STUDIO MEMBIRU : Photo studio based on Tanjung Balai Karimun"
         />
         <meta
           name="twitter:image"
           content="https://membiru.vercel.app/images/og-image.jpg"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+
+        {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
+
         {/* <!-- Style --> */}
         <link
           rel="stylesheet"
@@ -83,7 +98,12 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center my-24 transform scale-75 translate-x-5 ">
         <div className="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl rounded-xl w-52  -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={750} src="/images/sesi-keluarga.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={750}
+              src="/images/sesi-keluarga.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
@@ -121,7 +141,12 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center mb-24 transform scale-75 translate-x-5">
         <div className="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl w-52 rounded-xl -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={740} src="/images/sesi-single.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={740}
+              src="/images/sesi-single.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
@@ -146,7 +171,7 @@ export default function Home({ allPostsData }) {
           <div className="flex flex-row text-gray-500">
             <p className="">Sesi Garden</p>
           </div>
-          <div className="flex flec-row text-gray-500"> 
+          <div className="flex flec-row text-gray-500">
             <p>Sesi Studio</p>
           </div>
         </div>
@@ -155,7 +180,13 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center mb-24 transform scale-75 translate-x-5">
         <div className="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl w-52 rounded-xl -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={740} className="rounded-xl " src="/images/sesi-group.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={740}
+              className="rounded-xl "
+              src="/images/sesi-group.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
@@ -189,7 +220,12 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center mb-24 transform scale-75 translate-x-5">
         <div className="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl w-52 rounded-xl -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={740} src="/images/sesi-fun.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={740}
+              src="/images/sesi-fun.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
@@ -222,7 +258,12 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center mb-24 transform scale-75 translate-x-5">
         <div className="flex relative justify-center p-5 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl w-52 rounded-xl -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={740} src="/images/sesi-sitter.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={740}
+              src="/images/sesi-sitter.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
@@ -255,7 +296,12 @@ export default function Home({ allPostsData }) {
       <div className="flex justify-center mb-24 transform scale-75 translate-x-5">
         <div className="flex relative justify-center p-5 pb-24 items-end flex-col bg-gray-50 rounded-3xl w-96">
           <div className="absolute filter drop-shadow-2xl w-52 rounded-xl -left-12 -top-4">
-            <Image className="rounded-xl" width={500} height={750} src="/images/cetak-foto.png"></Image>
+            <Image
+              className="rounded-xl"
+              width={500}
+              height={750}
+              src="/images/cetak-foto.png"
+            ></Image>
             <div className="flex justify-center mt-2">
               <div className="bg-gray-800 mr-3 rounded-full w-3 h-3"></div>
               <div className="bg-gray-300 mr-3 rounded-full w-3 h-3"></div>
